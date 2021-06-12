@@ -1,0 +1,710 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sftpzs');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sftpzs#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?sftpzs') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?sftpzs') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?sftpzs##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.iconvttech {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconvttech-i_app1 {
+  &:before {
+    content: $iconvttech-i_app1; 
+  }
+}
+.iconvttech-i_cancel1 {
+  &:before {
+    content: $iconvttech-i_cancel1; 
+  }
+}
+.iconvttech-i_check1 {
+  &:before {
+    content: $iconvttech-i_check1; 
+  }
+}
+.iconvttech-i_creat1 {
+  &:before {
+    content: $iconvttech-i_creat1; 
+  }
+}
+.iconvttech-i_cus1 {
+  &:before {
+    content: $iconvttech-i_cus1; 
+  }
+}
+.iconvttech-i_visitor1 {
+  &:before {
+    content: $iconvttech-i_visitor1; 
+  }
+}
+.iconvttech-Prepaid-cards1 {
+  &:before {
+    content: $iconvttech-Prepaid-cards1; 
+  }
+}
+.iconvttech-prescription1 {
+  &:before {
+    content: $iconvttech-prescription1; 
+  }
+}
+.iconvttech-service-payment1 {
+  &:before {
+    content: $iconvttech-service-payment1; 
+  }
+}
+.iconvttech-booking1 {
+  &:before {
+    content: $iconvttech-booking1; 
+  }
+}
+.iconvttech-cctreat1 {
+  &:before {
+    content: $iconvttech-cctreat1; 
+  }
+}
+.iconvttech-creat-app1 {
+  &:before {
+    content: $iconvttech-creat-app1; 
+  }
+}
+.iconvttech-dieutri1 {
+  &:before {
+    content: $iconvttech-dieutri1; 
+  }
+}
+.iconvttech-nonecctreat1 {
+  &:before {
+    content: $iconvttech-nonecctreat1; 
+  }
+}
+.iconvttech-print1 {
+  &:before {
+    content: $iconvttech-print1; 
+  }
+}
+.iconvttech-signature1 {
+  &:before {
+    content: $iconvttech-signature1; 
+  }
+}
+.iconvttech-treatment1 {
+  &:before {
+    content: $iconvttech-treatment1; 
+  }
+}
+.iconvttech-treatment-work1 {
+  &:before {
+    content: $iconvttech-treatment-work1; 
+  }
+}
+.iconvttech-uniE9121 {
+  &:before {
+    content: $iconvttech-uniE9121; 
+  }
+}
+.iconvttech-deposit1 {
+  &:before {
+    content: $iconvttech-deposit1; 
+  }
+}
+.iconvttech-history1 {
+  &:before {
+    content: $iconvttech-history1; 
+  }
+}
+.iconvttech-installment1 {
+  &:before {
+    content: $iconvttech-installment1; 
+  }
+}
+.iconvttech-introduce1 {
+  &:before {
+    content: $iconvttech-introduce1; 
+  }
+}
+.iconvttech-sms1 {
+  &:before {
+    content: $iconvttech-sms1; 
+  }
+}
+.iconvttech-cahnge-color1 {
+  &:before {
+    content: $iconvttech-cahnge-color1; 
+  }
+}
+.iconvttech-call-action1 {
+  &:before {
+    content: $iconvttech-call-action1; 
+  }
+}
+.iconvttech-clear-sort1 {
+  &:before {
+    content: $iconvttech-clear-sort1; 
+  }
+}
+.iconvttech-cust-code1 {
+  &:before {
+    content: $iconvttech-cust-code1; 
+  }
+}
+.iconvttech-down1 {
+  &:before {
+    content: $iconvttech-down1; 
+  }
+}
+.iconvttech-edit-action1 {
+  &:before {
+    content: $iconvttech-edit-action1; 
+  }
+}
+.iconvttech-icon-doctor1 {
+  &:before {
+    content: $iconvttech-icon-doctor1; 
+  }
+}
+.iconvttech-print-action1 {
+  &:before {
+    content: $iconvttech-print-action1; 
+  }
+}
+.iconvttech-room-action1 {
+  &:before {
+    content: $iconvttech-room-action1; 
+  }
+}
+.iconvttech-setup1 {
+  &:before {
+    content: $iconvttech-setup1; 
+  }
+}
+.iconvttech-sms_action1 {
+  &:before {
+    content: $iconvttech-sms_action1; 
+  }
+}
+.iconvttech-tag-chichu-lich1 {
+  &:before {
+    content: $iconvttech-tag-chichu-lich1; 
+  }
+}
+.iconvttech-up1 {
+  &:before {
+    content: $iconvttech-up1; 
+  }
+}
+.iconvttech-filter-calendar1 {
+  &:before {
+    content: $iconvttech-filter-calendar1; 
+  }
+}
+.iconvttech-ACCOUNT1 {
+  &:before {
+    content: $iconvttech-ACCOUNT1; 
+  }
+}
+.iconvttech-appoment1 {
+  &:before {
+    content: $iconvttech-appoment1; 
+  }
+}
+.iconvttech-call011 {
+  &:before {
+    content: $iconvttech-call011; 
+  }
+}
+.iconvttech-cancel-apps1 {
+  &:before {
+    content: $iconvttech-cancel-apps1; 
+  }
+}
+.iconvttech-chamsoc1 {
+  &:before {
+    content: $iconvttech-chamsoc1; 
+  }
+}
+.iconvttech-cus1 {
+  &:before {
+    content: $iconvttech-cus1; 
+  }
+}
+.iconvttech-facebook1 {
+  &:before {
+    content: $iconvttech-facebook1; 
+  }
+}
+.iconvttech-labo1 {
+  &:before {
+    content: $iconvttech-labo1; 
+  }
+}
+.iconvttech-marketing1 {
+  &:before {
+    content: $iconvttech-marketing1; 
+  }
+}
+.iconvttech-mobile1 {
+  &:before {
+    content: $iconvttech-mobile1; 
+  }
+}
+.iconvttech-on-mic011 {
+  &:before {
+    content: $iconvttech-on-mic011; 
+  }
+}
+.iconvttech-repport1 {
+  &:before {
+    content: $iconvttech-repport1; 
+  }
+}
+.iconvttech-serv1 {
+  &:before {
+    content: $iconvttech-serv1; 
+  }
+}
+.iconvttech-setting1 {
+  &:before {
+    content: $iconvttech-setting1; 
+  }
+}
+.iconvttech-sms011 {
+  &:before {
+    content: $iconvttech-sms011; 
+  }
+}
+.iconvttech-task1 {
+  &:before {
+    content: $iconvttech-task1; 
+  }
+}
+.iconvttech-task-011 {
+  &:before {
+    content: $iconvttech-task-011; 
+  }
+}
+.iconvttech-un-mic011 {
+  &:before {
+    content: $iconvttech-un-mic011; 
+  }
+}
+.iconvttech-user-setting1 {
+  &:before {
+    content: $iconvttech-user-setting1; 
+  }
+}
+.iconvttech-warehouse1 {
+  &:before {
+    content: $iconvttech-warehouse1; 
+  }
+}
+.iconvttech-attach1 {
+  &:before {
+    content: $iconvttech-attach1; 
+  }
+}
+.iconvttech-birth-day1 {
+  &:before {
+    content: $iconvttech-birth-day1; 
+  }
+}
+.iconvttech-call1 {
+  &:before {
+    content: $iconvttech-call1; 
+  }
+}
+.iconvttech-cancel1 {
+  &:before {
+    content: $iconvttech-cancel1; 
+  }
+}
+.iconvttech-clear1 {
+  &:before {
+    content: $iconvttech-clear1; 
+  }
+}
+.iconvttech-client_send1 {
+  &:before {
+    content: $iconvttech-client_send1; 
+  }
+}
+.iconvttech-comment1 {
+  &:before {
+    content: $iconvttech-comment1; 
+  }
+}
+.iconvttech-dot1 {
+  &:before {
+    content: $iconvttech-dot1; 
+  }
+}
+.iconvttech-face_icon1 {
+  &:before {
+    content: $iconvttech-face_icon1; 
+  }
+}
+.iconvttech-face_w1 {
+  &:before {
+    content: $iconvttech-face_w1; 
+  }
+}
+.iconvttech-facelink1 {
+  &:before {
+    content: $iconvttech-facelink1; 
+  }
+}
+.iconvttech-fillter1 {
+  &:before {
+    content: $iconvttech-fillter1; 
+  }
+}
+.iconvttech-gotomess1 {
+  &:before {
+    content: $iconvttech-gotomess1; 
+  }
+}
+.iconvttech-hide1 {
+  &:before {
+    content: $iconvttech-hide1; 
+  }
+}
+.iconvttech-like1 {
+  &:before {
+    content: $iconvttech-like1; 
+  }
+}
+.iconvttech-messenger1 {
+  &:before {
+    content: $iconvttech-messenger1; 
+  }
+}
+.iconvttech-name1 {
+  &:before {
+    content: $iconvttech-name1; 
+  }
+}
+.iconvttech-nodelete_b1 {
+  &:before {
+    content: $iconvttech-nodelete_b1; 
+  }
+}
+.iconvttech-nohide1 {
+  &:before {
+    content: $iconvttech-nohide1; 
+  }
+}
+.iconvttech-no-reply1 {
+  &:before {
+    content: $iconvttech-no-reply1; 
+  }
+}
+.iconvttech-no-see1 {
+  &:before {
+    content: $iconvttech-no-see1; 
+  }
+}
+.iconvttech-ok1 {
+  &:before {
+    content: $iconvttech-ok1; 
+  }
+}
+.iconvttech-phone-21 {
+  &:before {
+    content: $iconvttech-phone-21; 
+  }
+}
+.iconvttech-profile1 {
+  &:before {
+    content: $iconvttech-profile1; 
+  }
+}
+.iconvttech-sex1 {
+  &:before {
+    content: $iconvttech-sex1; 
+  }
+}
+.iconvttech-staff1 {
+  &:before {
+    content: $iconvttech-staff1; 
+  }
+}
+.iconvttech-start1 {
+  &:before {
+    content: $iconvttech-start1; 
+  }
+}
+.iconvttech-tag1 {
+  &:before {
+    content: $iconvttech-tag1; 
+  }
+}
+.iconvttech-teamplate1 {
+  &:before {
+    content: $iconvttech-teamplate1; 
+  }
+}
+.iconvttech-cancel-app1 {
+  &:before {
+    content: $iconvttech-cancel-app1; 
+  }
+}
+.iconvttech-creat-csu-bo1 {
+  &:before {
+    content: $iconvttech-creat-csu-bo1; 
+  }
+}
+.iconvttech-creat-profile1 {
+  &:before {
+    content: $iconvttech-creat-profile1; 
+  }
+}
+.iconvttech-dash1 {
+  &:before {
+    content: $iconvttech-dash1; 
+  }
+}
+.iconvttech-desk1 {
+  &:before {
+    content: $iconvttech-desk1; 
+  }
+}
+.iconvttech-export-ex1 {
+  &:before {
+    content: $iconvttech-export-ex1; 
+  }
+}
+.iconvttech-icon-bacsi1 {
+  &:before {
+    content: $iconvttech-icon-bacsi1; 
+  }
+}
+.iconvttech-mute-volume1 {
+  &:before {
+    content: $iconvttech-mute-volume1; 
+  }
+}
+.iconvttech-notifaction1 {
+  &:before {
+    content: $iconvttech-notifaction1; 
+  }
+}
+.iconvttech-phong1 {
+  &:before {
+    content: $iconvttech-phong1; 
+  }
+}
+.iconvttech-print11 {
+  &:before {
+    content: $iconvttech-print11; 
+  }
+}
+.iconvttech-trongngay1 {
+  &:before {
+    content: $iconvttech-trongngay1; 
+  }
+}
+.iconvttech-vietnam1 {
+  &:before {
+    content: $iconvttech-vietnam1; 
+  }
+}
+.iconvttech-volum-noti1 {
+  &:before {
+    content: $iconvttech-volum-noti1; 
+  }
+}
+.iconvttech-x-ray1 {
+  &:before {
+    content: $iconvttech-x-ray1; 
+  }
+}
+.iconvttech-call11 {
+  &:before {
+    content: $iconvttech-call11; 
+  }
+}
+.iconvttech-mute-call-center1 {
+  &:before {
+    content: $iconvttech-mute-call-center1; 
+  }
+}
+.iconvttech-on-mic1 {
+  &:before {
+    content: $iconvttech-on-mic1; 
+  }
+}
+.iconvttech-booking11 {
+  &:before {
+    content: $iconvttech-booking11; 
+  }
+}
+.iconvttech-call21 {
+  &:before {
+    content: $iconvttech-call21; 
+  }
+}
+.iconvttech-call0111 {
+  &:before {
+    content: $iconvttech-call0111; 
+  }
+}
+.iconvttech-call-ticket1 {
+  &:before {
+    content: $iconvttech-call-ticket1; 
+  }
+}
+.iconvttech-cancel11 {
+  &:before {
+    content: $iconvttech-cancel11; 
+  }
+}
+.iconvttech-cancel-011 {
+  &:before {
+    content: $iconvttech-cancel-011; 
+  }
+}
+.iconvttech-cancel-app11 {
+  &:before {
+    content: $iconvttech-cancel-app11; 
+  }
+}
+.iconvttech-check1 {
+  &:before {
+    content: $iconvttech-check1; 
+  }
+}
+.iconvttech-creat-app11 {
+  &:before {
+    content: $iconvttech-creat-app11; 
+  }
+}
+.iconvttech-delete1 {
+  &:before {
+    content: $iconvttech-delete1; 
+  }
+}
+.iconvttech-delete011 {
+  &:before {
+    content: $iconvttech-delete011; 
+  }
+}
+.iconvttech-disable1 {
+  &:before {
+    content: $iconvttech-disable1; 
+  }
+}
+.iconvttech-edit1 {
+  &:before {
+    content: $iconvttech-edit1; 
+  }
+}
+.iconvttech-import-file1 {
+  &:before {
+    content: $iconvttech-import-file1; 
+  }
+}
+.iconvttech-labo11 {
+  &:before {
+    content: $iconvttech-labo11; 
+  }
+}
+.iconvttech-list-ticket-file1 {
+  &:before {
+    content: $iconvttech-list-ticket-file1; 
+  }
+}
+.iconvttech-lock1 {
+  &:before {
+    content: $iconvttech-lock1; 
+  }
+}
+.iconvttech-lock-011 {
+  &:before {
+    content: $iconvttech-lock-011; 
+  }
+}
+.iconvttech-LOCK-USER-bo1 {
+  &:before {
+    content: $iconvttech-LOCK-USER-bo1; 
+  }
+}
+.iconvttech-print21 {
+  &:before {
+    content: $iconvttech-print21; 
+  }
+}
+.iconvttech-refesh1 {
+  &:before {
+    content: $iconvttech-refesh1; 
+  }
+}
+.iconvttech-restore1 {
+  &:before {
+    content: $iconvttech-restore1; 
+  }
+}
+.iconvttech-send-sms1 {
+  &:before {
+    content: $iconvttech-send-sms1; 
+  }
+}
+.iconvttech-ticket1 {
+  &:before {
+    content: $iconvttech-ticket1; 
+  }
+}
+.iconvttech-todo1 {
+  &:before {
+    content: $iconvttech-todo1; 
+  }
+}
+.iconvttech-tranfer-user1 {
+  &:before {
+    content: $iconvttech-tranfer-user1; 
+  }
+}
+.iconvttech-unlock1 {
+  &:before {
+    content: $iconvttech-unlock1; 
+  }
+}
+.iconvttech-unlock-011 {
+  &:before {
+    content: $iconvttech-unlock-011; 
+  }
+}
+.iconvttech-unlock-usser-bo1 {
+  &:before {
+    content: $iconvttech-unlock-usser-bo1; 
+  }
+}
+.iconvttech-xem1 {
+  &:before {
+    content: $iconvttech-xem1; 
+  }
+}
+.iconvttech-logo1 {
+  &:before {
+    content: $iconvttech-logo1; 
+  }
+}
+
